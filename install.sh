@@ -23,3 +23,6 @@ cp ./bashrc ~/.bashrc
 
 #4, vim
 cp ./vimrc ~/.vimrc
+
+
+sudo chsh -s /bin/bash "$(whoami)"
