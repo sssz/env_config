@@ -17,6 +17,7 @@ cp ./tmux.conf ~/.tmux.conf
 
 
 #3, bash jump to tmux
+cp ./bash_profile ~/.bash_profile
 cp ./bashrc ~/.bashrc
 
 
