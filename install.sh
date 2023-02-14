@@ -24,5 +24,5 @@ cp ./bashrc ~/.bashrc
 #4, vim
 cp ./vimrc ~/.vimrc
 
-
-sudo chsh -s /bin/bash "$(whoami)"
+user=$(whoami)
+sudo chsh -s /bin/bash $user
